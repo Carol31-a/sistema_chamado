@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+  justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+
+}
+
+img{
+    width: 100%;
+}
+
+form {
+    background-color:#a877fd;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 15px;
+    gap: 9px;
+
+}
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-sarif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+input, button {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 14px;
+    border: 0px;
+}
+
+button {
+    
+    background-color: blueviolet;
+    color: aliceblue;
+    
+}
