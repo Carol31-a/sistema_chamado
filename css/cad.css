@@ -18,7 +18,7 @@ img{
 }
 
 form {
-    background-color:#a877fd;
+    background-color:#a878fc;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,13 +31,6 @@ label {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-sarif;
     font-size: 20px;
     color: rgb(255, 255, 255);
-}
-
-input, button {
-    padding: 10px;
-    font-size: 15px;
-    border-radius: 14px;
-    border: 0px;
 }
 
 button {

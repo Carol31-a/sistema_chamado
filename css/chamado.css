@@ -1,16 +1,79 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(199, 159, 248, 1) !important;
-}
-.bg-body-tertiary
 {
-    background-color: rgba(199, 159, 248, 1) !important;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
+/* CORPO */
+body{
+    background-color: rgba(252, 242, 242, 1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar {
+    justify-content: space-between;
+    padding: 5px 5%;
+    display: flex;
+}
+
+/* COR NAVBAR */
+.bg-body-tertiary{
+    background-color: rgb(199, 91, 241) !important;
+ }
+
+/* COR FONTE NAVBAR */
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+
+/* ICONE NAVBAR */
+.fa-solid{
+    color: rgba(252, 242, 242, 1);
+    font-size: 30px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+/* CAIXAS DE TEXTO */
+input{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.177);
+    border-radius: 20px;
+    font-size: 20px;
+    height: 50px;
+    padding: 5px;
+    border: 0px;
+}
+
+.radio {
+    box-shadow: none;
+}
+
+#ajuste {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: rgb(186, 142, 228);
+    color: aliceblue;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 20px;
+}
