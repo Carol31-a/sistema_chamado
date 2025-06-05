@@ -9,24 +9,26 @@
 <body>
     <div class="container">
         <aside>
-            <img src="css/download.jpg" alt="">
+            <img src="images/Imagem tela de cadastro.png" alt="tela de cadastro">
         </aside>
-        <form action="#" method ="post">
-            <label for="Nome">Nome</label>
-            <input type="text" name="Nome" id="none">
+        <form action="PHP/insert_user.php" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
 
             <label for="email">Email</label>
-            <input type="text" name="email" id="Email">
+            <input type="text" name="email" id="email">
 
             <label for="setor">Setor</label>
-            <input type="text" name="setor" id="Setor">
+            <input type="text" name="setor" id="setor">
 
-            <label for="Senha">Senha</label>
-            <input type="text" name="senha" id="Senha">
+            <label for="senha">Senha</label>
+            <input type="text" name="senha" id="senha">
 
-            <button type="submit">Cadastrar</button>
-            <a href="">Voltar</a>
-
+            <div class="botao">
+            <button type="submit">Cadastrar-se</button>
+            <a href="index.html">Voltar</a>
+        </div>    
+        
         </form>
     </div>
 </body>
